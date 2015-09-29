@@ -40,8 +40,7 @@ Collapsible menu toggling using [MenuAnimate](https://github.com/clarketm/MenuAn
 ## Usage
 QueryTag.js was designed to blend aesthetically with the [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS framework and comes packaged with a default theme that looks great on **both** Bootstrap and *non*-Bootstrap websites.
 
-#### API documentation:
-##### [www.clarketravis.com](http://www.clarketravis.com/querytag)
+##### Check out the QueryTag.js [API documentation](http://www.clarketravis.com/querytag):
 
 ### JavaScript
 
@@ -78,13 +77,11 @@ $("#grid").queryTag("USER-ID", "CSE-ID", ["overall", "month"]);
 .queryTag( USER-ID , CSE-ID [, views ] )
 ```
 
-A [detailed list] of available methods and their usage can be found:
-##### [Methods](http://www.clarketravis.com/querytag/#methods)
+A detailed list of available methods and their usage: ##### [Methods](http://www.clarketravis.com/querytag/#methods)
 
 ### Events
 
-A table of available events and their usage can be found here:
-##### [Events](http://www.clarketravis.com/querytag/#events)
+A table of available events and their usage: ##### [Events](http://www.clarketravis.com/querytag/#events)
 
 Interactive [demo](http://www.clarketravis.com/querytag/demo5.php) to test the **six** custom events.
 
