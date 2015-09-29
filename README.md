@@ -5,7 +5,7 @@ The simple, easy-to-implement jQuery plugin that allows you to add popular searc
 
 ### Download and Setup
 
-To use this plugin, include the [jQuery](https://jquery.com) library and the [TableExport.js](http://www.clarketravis.com) plugin before the closing `<body>` tag of your HTML document:
+To use this plugin, include the [jQuery](http://www.jquery.com), [Isotope](http://isotope.metafizzy.co/), and Isotope [Packery-Mode](http://isotope.metafizzy.co/layout-modes/packery.html) libraries and the QueryTag.js plugin before the closing `<body>` tag of your HTML document:
 
 ```html
 <script src="jquery.js"></script>
@@ -31,34 +31,20 @@ $ bower install querytag.js
 ##### Optional / Theming:
 
 [Bootstrap](http://getbootstrap.com/getting-started/#download) (3.1.0+)
-[QueryTag custom theme]() (included as *querytag-theme.css*)
+[QueryTag](http://www.clarketravis.com/querytag) custom theme (included as *querytag-theme.css*)
 
 ##### Add-Ons:
-Collapsible menu toggling using [MenuAnimate](), which includes **6** stylish navigation transformicons.
+Collapsible menu toggling using [MenuAnimate](https://github.com/clarketm/MenuAnimate), which includes **6** stylish navigation transformicons.
 
 ## Usage
 
+### HTML
+
+### JSON
+
 ### CSS
 
-Querytag.js was designed to blend aesthetically with the [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS framework and comes packaged with a default theme that looks great on **both** Bootstrap and *non*-Bootstrap websites.
-
-##### Buttons
-
-Default button style `.button-default`
-
-##### Alerts
-
-Tag results count `#alert-results`
-Empty results message `#alert-empty`
-Ajax error message `#alert-error`
-
-##### Labels
-
-Label category styles `.label`
-
-##### Labels
-
-Navigation menu transformicons `.navicon`
+QueryTag.js was designed to blend aesthetically with the [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS framework and comes packaged with a default theme that looks great on **both** Bootstrap and *non*-Bootstrap websites.
 
 ### JavaScript
 
@@ -95,12 +81,12 @@ $("#grid").queryTag("USER-ID", "CSE-ID", ["overall", "month"]);
 > .queryTag( USER-ID , CSE-ID [, views ] )
 
 A detailed list of available methods and their usage can be found here:
-##### [www.clarketravis.com](http://www.clarketravis.com/#methods)
+##### [www.clarketravis.com](http://www.clarketravis.com/querytag/#methods)
 
 ### Events
 
 A table of available events and their usage can be found here:
-##### [www.clarketravis.com](http://www.clarketravis.com/#events)
+##### [www.clarketravis.com](http://www.clarketravis.com/querytag/#events)
 
 ### Settings
 
@@ -172,10 +158,10 @@ $.fn.queryTag.reloadStyle = {
 
 ### Live Demo 
 A live, interactive demo can be found here:
-##### [www.clarketravis.com](http://www.clarketravis.com/#live-demo)
+##### [www.clarketravis.com](http://www.clarketravis.com/querytag/#live-demo)
 
 ### License
-[QueryTag.js]() is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
+[QueryTag.js](http://www.clarketravis.com/querytag) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
 
 ### Credits
 

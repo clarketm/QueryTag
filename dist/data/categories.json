@@ -1,5 +1,5 @@
 {
-  "api": {
+  "category1": {
     "color": "label-1",
     "list": [
       "methods",
@@ -8,7 +8,7 @@
       "usage"
     ]
   },
-  "filetype": {
+  "category2": {
     "color": "label-2",
     "list": [
       "xls",
@@ -17,7 +17,7 @@
       "filetypes"
     ]
   },
-  "personal": {
+  "category3": {
     "color": "label-3",
     "list": [
       "travis",
@@ -26,7 +26,7 @@
       "contact"
     ]
   },
-  "table": {
+  "category4": {
     "color": "label-4",
     "list": [
       "tableexport",
@@ -35,7 +35,7 @@
       "plugin"
     ]
   },
-  "code": {
+  "category5": {
     "color": "label-5",
     "list": [
       "js",

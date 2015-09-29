@@ -1,0 +1,118 @@
+/*!
+ * MenuAnimate.scss v1.0.0 (http://www.clarketravis.com)
+ * Copyright 2015 Travis Clarke
+ * Licensed under the MIT license
+ */
+@import "variables";
+
+.navicon {
+  font: inherit;
+  font-size: 1rem;
+  display: inline-block;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  padding: 0.75rem 0.25rem;
+  transition: $duration/2;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  opacity: .8;
+  -webkit-appearance: unset;
+  -moz-appearance: unset;
+  appearance: unset;
+  outline: none !important;
+
+  .icon:before, .icon:after {
+    transition: $duration/2;
+  }
+
+  &:hover {
+    transition: $duration;
+    opacity: 1;
+
+    .icon:before, .icon:after {
+      transition: $duration/2;
+    }
+
+    .icon:before {
+      top: .625rem;
+    }
+    .icon:after {
+      top: -.625rem;
+    }
+  }
+}
+
+.icon {
+  position: relative;
+  width: 1.5em;
+  height: .3125rem;
+  background: $content-bg;
+  transition: $duration;
+  border-radius: 2.5rem;
+
+  &:before, &:after {
+    display: block;
+    content: "";
+    height: .3125rem;
+    width: 1.5rem;
+    background: $content-bg;
+    position: absolute;
+    z-index: -1;
+    transition: $duration $duration/2;
+    border-radius: 1rem;
+  }
+
+  &:before { top: .525rem; }
+  &:after { top: -.525rem; }
+}
+
+.navicon.open:not(.steps) .icon:before,
+.navicon.open:not(.steps) .icon:after {
+  top: 0 !important;
+}
+
+.open .icon:before,
+.open .icon:after {
+  content: "";
+  transition: $duration;
+}
+
+/* Minus */
+.navicon.open { transform: scale($toggled-size); }
+
+/* Arrows */
+.navicon.open.larr .icon,
+.navicon.open.rarr .icon,
+.navicon.open.uarr .icon {
+  &:before, &:after {
+    width: 1rem;
+  }
+
+  &:before { transform: rotate(35deg); transform-origin: left top; }
+  &:after { transform: rotate(-35deg); transform-origin: left bottom; }
+}
+.navicon.open.uarr { transform: scale($toggled-size) rotate(90deg); }
+
+/* Arrows */
+.navicon.open.rarr .icon {
+  &:before { transform: translate3d(0.5em,0,0) rotate(-35deg); transform-origin: right top; }
+  &:after { transform: translate3d(0.5em,0,0) rotate(35deg); transform-origin: right bottom; }
+}
+
+/* × and + */
+.navicon.open.plus,
+.navicon.open.x {
+  .icon {
+    background: transparent;
+
+    &:before { transform: rotate(-45deg); }
+    &:after { transform: rotate(45deg); }
+  }
+}
+.navicon.open.plus {
+  transform: scale($toggled-size) rotate(45deg)
+}
