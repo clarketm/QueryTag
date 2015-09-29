@@ -1,6 +1,0 @@
-/*-----------------------------------/
-/* HIDE ALERTS AND COLLAPSIBLES
-/*----------------------------------*/
-#alert-results, #alert-empty, #alert-error, .collapsible {
-    display: none;
-}

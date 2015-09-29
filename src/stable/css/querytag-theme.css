@@ -3,7 +3,8 @@ a:focus,
 a:hover,
 a:active,
 button,
-button:hover {
+button:hover,
+select {
     outline: 0 !important;
 }
 
@@ -100,7 +101,6 @@ button:hover {
 }
 
 #alert-results {
-    display: inline-block;
     font-size: 0.9em;
     padding: 6px 10px;
 }

@@ -142,7 +142,7 @@ $.fn.queryTag.emptyText = "Sorry, no results found for your search.";
 /* alert text to display for ajax errors */
 $.fn.queryTag.errorText = "Sorry! We are unable to retrieve the search queries at this time.";
 
-/* reload button element definition after the occurence of ajax errors */
+/* reload button to display for ajax errors */
 $.fn.queryTag.reloadStyle = {
     img: {
         src: "dist/img/refresh.png",
