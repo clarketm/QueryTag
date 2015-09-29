@@ -80,7 +80,6 @@ $("#grid").queryTag("USER-ID", "CSE-ID", ["overall", "month"]);
 
 ### Events
 ##### Check out the table of custom [Events](http://www.clarketravis.com/querytag/#methods) and the interactive [Demo 5: Events](http://www.clarketravis.com/querytag/demo5.php)
-A table of available events and their usage &mdash; [Events](http://www.clarketravis.com/querytag/#events)
 
 
 ### Browser Support
@@ -88,7 +87,7 @@ A table of available events and their usage &mdash; [Events](http://www.clarketr
 |  | Chrome | Firefox | IE   | Opera | Safari |
 | :------: | :------: | :-------: | :---: | :-----: | :------: |
 | __Android__  |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |  &#10003;   |
-| __iOS__ * |    &#10003;   |  &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
+| __iOS__  |    &#10003;   |  &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
 | **Mac OSX**|    &#10003;   |    &#10003;    | &#10003; |   &#10003;  |   &#10003;    |
 | **Windows** |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
 
