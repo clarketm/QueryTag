@@ -24,14 +24,14 @@ $ bower install querytag.js
 
 ##### Required:
 
-[jQuery](https://jquery.com) (1.2.1+)
-[Isotope](http://isotope.metafizzy.co/) (2.2.2+)
-[Isotope-Packery](http://isotope.metafizzy.co/layout-modes/packery.html) (1.1.3+)
+* [jQuery](https://jquery.com) (1.2.1+)
+* [Isotope](http://isotope.metafizzy.co/) (2.2.2+)
+* [Isotope-Packery](http://isotope.metafizzy.co/layout-modes/packery.html) (1.1.3+)
 
 ##### Optional / Theming:
 
-[Bootstrap](http://getbootstrap.com/getting-started/#download) (3.1.0+)
-[QueryTag](http://www.clarketravis.com/querytag) custom theme (included as *querytag-theme.css*)
+* [Bootstrap](http://getbootstrap.com/getting-started/#download) (3.1.0+)
+* [QueryTag](http://www.clarketravis.com/querytag) custom theme (included as *querytag-theme.css*)
 
 ##### Add-Ons:
 Collapsible menu toggling using [MenuAnimate](https://github.com/clarketm/MenuAnimate), which includes **6** stylish navigation transformicons.
@@ -40,7 +40,7 @@ Collapsible menu toggling using [MenuAnimate](https://github.com/clarketm/MenuAn
 ## Usage
 QueryTag.js was designed to blend aesthetically with the [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS framework and comes packaged with a default theme that looks great on **both** Bootstrap and *non*-Bootstrap websites.
 
-API documentation:
+#### API documentation:
 ##### [www.clarketravis.com](http://www.clarketravis.com/querytag)
 
 ### JavaScript
@@ -74,30 +74,30 @@ $("#grid").queryTag("USER-ID", "CSE-ID", ["overall", "month"]);
 ```                        
 
 ### Methods
+```js
+.queryTag( USER-ID , CSE-ID [, views ] )
+```
 
-> .queryTag( USER-ID , CSE-ID [, views ] )
-
-A detailed list of available methods and their usage can be found here:
-##### [www.clarketravis.com](http://www.clarketravis.com/querytag/#methods)
+A [detailed list] of available methods and their usage can be found:
+##### [Methods](http://www.clarketravis.com/querytag/#methods)
 
 ### Events
 
 A table of available events and their usage can be found here:
-##### [www.clarketravis.com](http://www.clarketravis.com/querytag/#events)
+##### [Events](http://www.clarketravis.com/querytag/#events)
 
 Interactive [demo](http://www.clarketravis.com/querytag/demo5.php) to test the **six** custom events.
 
 
 ### Browser Support
 
-|  | Chrome | Firefox | IE *  | Opera | Safari |
+|  | Chrome | Firefox | IE   | Opera | Safari |
 | :------: | :------: | :-------: | :---: | :-----: | :------: |
-| __Android__ * |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |  &#10003;   |
+| __Android__  |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |  &#10003;   |
 | __iOS__ * |    &#10003;   |  &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
 | **Mac OSX**|    &#10003;   |    &#10003;    | &#10003; |   &#10003;  |   &#10003;    |
 | **Windows** |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
 
-*requires third-party dependencies
 
 ### Live Demo 
 Live, interactive demos:
