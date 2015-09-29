@@ -36,15 +36,12 @@ $ bower install querytag.js
 ##### Add-Ons:
 Collapsible menu toggling using [MenuAnimate](https://github.com/clarketm/MenuAnimate), which includes **6** stylish navigation transformicons.
 
+
 ## Usage
-
-### HTML
-
-### JSON
-
-### CSS
-
 QueryTag.js was designed to blend aesthetically with the [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS framework and comes packaged with a default theme that looks great on **both** Bootstrap and *non*-Bootstrap websites.
+
+API documentation:
+##### [www.clarketravis.com](http://www.clarketravis.com/querytag)
 
 ### JavaScript
 
@@ -88,62 +85,8 @@ A detailed list of available methods and their usage can be found here:
 A table of available events and their usage can be found here:
 ##### [www.clarketravis.com](http://www.clarketravis.com/querytag/#events)
 
-### Settings
+Interactive [demo](http://www.clarketravis.com/querytag/demo5.php) to test the **six** custom events.
 
-Below are the default settings to support the functionality of the plugin.
-
-```js
-/* default jQuery selectors for plugin-related elements */
-$.fn.queryTag.selectors = {
-        $searchForm: ".searchable",                             // (jQuery selector) search form containing search input
-        $menuGroup: ".collapsible",                             // (jQuery selector) container to wrap around elements which are toggled by the ".navicon"
-        $buttonGroup: ".sortable",                              // (jQuery selector) button group for sort buttons
-        $selectGroup: ".filterable",                            // (jQuery selector) select control for the list of views
-        $navIcon: ".navicon",                                   // (jQuery selector) menu button used to toggle ".collapsible" containers
-        $alertInfo: "#alert-results",                           // (jQuery selector) alert for results count
-        $alertEmpty: "#alert-empty",                            // (jQuery selector) alert for no results message
-        $alertError: "#alert-error"                             // (jQuery selector) alert for ajax error
-    };
-
-/* default styles for plugin-related elements */
-    $.fn.queryTag.styles = {
-        category: "general",                                    // (String) default category
-        button: "button-default",                               // (String) default button style
-        color: "label-default",                                 // (String) default tag style
-        reload: "img"                                           // (String) reload image null, "img", "fontawesome", ""
-    };
-
-/* relative font sizes for the popularity of keywords(queries) */
-$.fn.queryTag.sizes = ["1.5em", "1.375em", "1.25em", "1.125em", "1em", "0.9375em", "0.875em"];
-
-/* path to the JSON category file */
-$.fn.queryTag.pathToJSON = "dist/data/categories.json";
-
-/* data to be sent to the server with categories.json request */
-$.fn.queryTag.data = null;
-
-/* alert text to display when there are no results for the selected view */
-$.fn.queryTag.emptyText = "Sorry, no results found for your search.";
-
-/* alert text to display for ajax errors */
-$.fn.queryTag.errorText = "Sorry! We are unable to retrieve the search queries at this time.";
-
-/* reload button to display for ajax errors */
-$.fn.queryTag.reloadStyle = {
-    img: {
-        src: "dist/img/refresh.png",
-        element: function () {
-            return "refresh";
-        }
-    },
-    fontawesome: {
-        size: "fa-2x",
-        element: function () {
-            return "";
-        }
-    }
-};
-```
 
 ### Browser Support
 
@@ -157,8 +100,12 @@ $.fn.queryTag.reloadStyle = {
 *requires third-party dependencies
 
 ### Live Demo 
-A live, interactive demo can be found here:
-##### [www.clarketravis.com](http://www.clarketravis.com/querytag/#live-demo)
+Live, interactive demos:
+##### [Demo 1: Unstyled](http://www.clarketravis.com/querytag/demo1.html)
+##### [Demo 2: Styled](http://www.clarketravis.com/querytag/demo2.html)
+##### [Demo 3: Menu](http://www.clarketravis.com/querytag/demo3.html)
+##### [Demo 4: Search](http://www.clarketravis.com/querytag/demo4.php)
+##### [Demo 5: Events](http://www.clarketravis.com/querytag/demo5.php)
 
 ### License
 [QueryTag.js](http://www.clarketravis.com/querytag) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
