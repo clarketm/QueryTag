@@ -5,7 +5,7 @@
     "clarketm <travis.m.clarke@gmail.com>"
   ],
   "description": "The simple, easy-to-implement jQuery plugin that allows you to add popular search queries from a Google Custom Search Engine (CSE) to your website as sortable, filterable, and stylable keyword tags.",
-  "main": "dist/js/versions/v2/2.0/jquery.tableexport-2.0.min.js",
+  "main": "dist/js/querytag.min.js",
   "keywords": [
     "querytag",
     "query",
