@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/clarketm/QueryTag.svg?branch=master)](https://travis-ci.org/clarketm/QueryTag)
 # QueryTag
 The simple, easy-to-implement jQuery plugin that allows you to add popular search queries from a Google Custom Search Engine (CSE) to your website as sortable, filterable, and stylable keyword tags.
 
