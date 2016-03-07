@@ -24,7 +24,7 @@ $ bower install querytag.js
 ### Install with npm
 
 ```shell
-$ npm install tableexport
+$ npm install querytag
 ```
 
 ### Dependencies
