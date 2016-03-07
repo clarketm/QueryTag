@@ -21,6 +21,12 @@ To use this plugin, include the [jQuery](http://www.jquery.com), [Isotope](http:
 $ bower install querytag.js
 ```
 
+### Install with npm
+
+```shell
+$ npm install tableexport
+```
+
 ### Dependencies
 
 ##### Required:
