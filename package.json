@@ -15,7 +15,9 @@
     "cse",
     "custom search",
     "google custom search",
-    "search"
+    "search",
+    "jquery-plugin",
+    "ecosystem:jquery"
   ],
   "scripts": {
     "test": "gulp"
