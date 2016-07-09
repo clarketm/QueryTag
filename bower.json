@@ -25,7 +25,7 @@
     "menuanimate.scss": "~1.0.0"
   },
   "license": "MIT",
-  "homepage": "http://www.clarketravis.com",
+  "homepage": "https://www.travismclarke.com",
   "ignore": [
     "**/.*",
     "node_modules",

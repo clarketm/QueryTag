@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/clarketm/QueryTag.svg?branch=master)](https://travis-ci.org/clarketm/QueryTag)
-# [QueryTag](http://www.clarketravis.com/querytag/)
+# [QueryTag](https://www.travismclarke.com/querytag/)
 The simple, easy-to-implement jQuery plugin that allows you to add popular search queries from a Google Custom Search Engine (CSE) to your website as sortable, filterable, and stylable keyword tags.
 
 ## Getting Started
@@ -38,7 +38,7 @@ $ npm install querytag
 ##### Optional / Theming:
 
 * [Bootstrap](http://getbootstrap.com/getting-started/#download) (3.1.0+)
-* [QueryTag](http://www.clarketravis.com/querytag) custom theme (included as *querytag-theme.css*)
+* [QueryTag](https://www.travismclarke.com/querytag) custom theme (included as *querytag-theme.css*)
 
 ##### Add-Ons:
 Collapsible menu toggling using [MenuAnimate](https://github.com/clarketm/MenuAnimate), which includes **6** stylish navigation transformicons.
@@ -47,7 +47,7 @@ Collapsible menu toggling using [MenuAnimate](https://github.com/clarketm/MenuAn
 ## Usage
 QueryTag.js was designed to blend aesthetically with the [Bootstrap](http://getbootstrap.com/getting-started/#download) CSS framework and comes packaged with a default theme that looks great on **both** Bootstrap and *non*-Bootstrap websites.
 
-##### Check out the complete [API documentation](http://www.clarketravis.com/querytag)
+##### Check out the complete [API documentation](https://www.travismclarke.com/querytag)
 
 ### JavaScript
 
@@ -83,10 +83,10 @@ $("#grid").queryTag("USER-ID", "CSE-ID", ["overall", "month"]);
 ```js
 .queryTag( USER-ID , CSE-ID [, views ] )
 ```
-##### Check out the complete list of available [Methods](http://www.clarketravis.com/querytag/#methods)
+##### Check out the complete list of available [Methods](https://www.travismclarke.com/querytag/#methods)
 
 ### Events
-##### Check out the table of custom [Events](http://www.clarketravis.com/querytag/#methods) and the interactive [Demo 5: Events](http://www.clarketravis.com/querytag/demo5.php)
+##### Check out the table of custom [Events](https://www.travismclarke.com/querytag/#methods) and the interactive [Demo 5: Events](https://www.travismclarke.com/querytag/demo5.php)
 
 
 ### Browser Support
@@ -101,14 +101,14 @@ $("#grid").queryTag("USER-ID", "CSE-ID", ["overall", "month"]);
 
 ### Live Demo 
 Live, interactive demos:
-##### [Demo 1: Unstyled](http://www.clarketravis.com/querytag/demo1.html)
-##### [Demo 2: Styled](http://www.clarketravis.com/querytag/demo2.html)
-##### [Demo 3: Menu](http://www.clarketravis.com/querytag/demo3.html)
-##### [Demo 4: Search](http://www.clarketravis.com/querytag/demo4.php)
-##### [Demo 5: Events](http://www.clarketravis.com/querytag/demo5.php)
+##### [Demo 1: Unstyled](https://www.travismclarke.com/querytag/demo1.html)
+##### [Demo 2: Styled](https://www.travismclarke.com/querytag/demo2.html)
+##### [Demo 3: Menu](https://www.travismclarke.com/querytag/demo3.html)
+##### [Demo 4: Search](https://www.travismclarke.com/querytag/demo4.php)
+##### [Demo 5: Events](https://www.travismclarke.com/querytag/demo5.php)
 
 ### License
-[QueryTag.js](http://www.clarketravis.com/querytag) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
+[QueryTag.js](https://www.travismclarke.com/querytag) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
 
 ### Credits
 

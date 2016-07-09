@@ -35,7 +35,7 @@
     "gulp-uglify": "^1.5.3"
   },
   "license": "MIT",
-  "homepage": "http://www.clarketravis.com",
+  "homepage": "https://www.travismclarke.com",
   "ignore": [
     "**/.*",
     "node_modules",
