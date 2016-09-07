@@ -2,46 +2,31 @@
   "category1": {
     "color": "label-1",
     "list": [
-      "methods",
-      "demo",
-      "properties",
-      "usage"
+      "sample-item-1"
     ]
   },
   "category2": {
     "color": "label-2",
     "list": [
-      "xls",
-      "csv",
-      "txt",
-      "filetypes"
+      "sample-item-2"
     ]
   },
   "category3": {
     "color": "label-3",
     "list": [
-      "travis",
-      "clarke",
-      "license",
-      "contact"
+      "sample-item-3"
     ]
   },
   "category4": {
     "color": "label-4",
     "list": [
-      "tableexport",
-      "table",
-      "export",
-      "plugin"
+      "sample-item-4"
     ]
   },
   "category5": {
     "color": "label-5",
     "list": [
-      "js",
-      "jquery",
-      "css",
-      "bootstrap"
+      "sample-item-5"
     ]
   }
 }

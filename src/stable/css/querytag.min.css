@@ -1,1 +1,5 @@
-#alert-results,#alert-empty,#alert-error,.collapsible{display:none}
+/*!
+ * QueryTag.js v1.0.1 (https://www.travismclarke.com)
+ * Copyright 2016 Travis Clarke
+ * Licensed under the MIT license
+ */#alert-empty,#alert-error,#alert-results,.collapsible{display:none}
