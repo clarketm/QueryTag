@@ -22,7 +22,7 @@
     "bootstrap": "~3.3.5",
     "isotope": "~2.2.2",
     "isotope-packery": "~1.1.3",
-    "menuanimate.scss": "~1.0.0"
+    "menuanimate.scss": "^1.0.0"
   },
   "license": "MIT",
   "homepage": "https://www.travismclarke.com",
