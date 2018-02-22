@@ -4,8 +4,7 @@
 
 ### Custom
 assets
-demo*.html
-demo*.php
+demo*.*
 
 ### Node
 # Logs
